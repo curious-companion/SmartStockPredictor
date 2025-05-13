@@ -1,0 +1,15 @@
+.prediction-container {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #1e3a8a; /* Tailwind blue-900 */
+    background-color: #f0f9ff; /* Light blue background */
+    padding: 1rem;
+    border: 1px solid #dbeafe; /* Border blue-200 */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .prediction-container strong {
+    color: #111827; /* Tailwind gray-900 */
+  }
+  

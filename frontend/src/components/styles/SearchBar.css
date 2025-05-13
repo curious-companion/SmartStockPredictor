@@ -1,0 +1,36 @@
+/* styles.css or SearchBar.css */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  outline: none;
+  width: 180px;
+  transition: border 0.2s ease-in-out;
+}
+
+.search-bar input:focus {
+  border-color: #0077ff;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #0077ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-bar button:hover {
+  background-color: #005fcc;
+}
